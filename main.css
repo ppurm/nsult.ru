@@ -1,0 +1,76 @@
+/* Базовые настройки страницы */
+body { 
+    background: rgb(25, 25, 25); 
+    color: white; 
+    font-family: sans-serif; 
+    padding: 20px; 
+    min-height: 100vh;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* МАГИЯ СЕТКИ: делаем главный контейнер */
+.site-wrapper {
+    display: flex;         
+    gap: 20px;             
+    max-width: 1000px;     
+    margin: 0 auto;        
+}
+
+/* Нарактеристики левой колонки */
+.sidebar {
+    width: 250px;          
+    flex-shrink: 0;        
+}
+
+/* Заголовок в сайдбаре выравниваем по центру */
+.sidebar-title {
+    margin-top: 0; 
+    text-align: center;
+}
+
+/* Блок статуса выравниваем по центру */
+.status-box {
+    text-align: center;
+}
+
+/* Настройки правой колонки с контентом */
+.main-content {
+    flex-grow: 1;          
+    text-align: center;    
+}
+
+/* Стили для блоков-карточек */
+.box {
+    background: rgb(35, 35, 35);       
+    border: 2px dashed rgb(80, 80, 80); 
+    border-radius: 12px;               
+    padding: 20px;                     
+    margin-bottom: 20px;               
+}
+
+/* Твой голубь */
+img { 
+    max-width: 100%;       
+    height: auto; 
+    border-radius: 20px; 
+    margin-top: 15px;
+}
+
+/* Кнопки-ссылки в меню */
+.nav-button {
+    display: block;        
+    background: rgb(50, 50, 50);
+    color: white;
+    text-decoration: none; 
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: 1px solid rgb(100, 100, 100);
+    transition: 0.2s;      
+}
+
+/* Эффект при наведении на кнопку */
+.nav-button:hover {
+    background: rgb(70, 70, 70); 
+}
