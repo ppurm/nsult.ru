@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Привет, это nsult!</title>
+    <style>
+        body { 
+            background: #121212; 
+            color: white; 
+            text-align: center; 
+            font-family: sans-serif; 
+            padding-top: 50px; 
+        }
+        img { 
+            max-width: 90%; 
+            height: auto; 
+            border-radius: 10px; 
+        }
+    </style>
+</head>
+<body>
+    <h1>Привет, это nsult!</h1>
+    <img src="https://gstatic.com" alt="Мое первое фото">
+</body>
+</html>
+      
